@@ -14,6 +14,8 @@ function App() {
          setAlertText({
           msg : message,
           type : type
+
+          
          })
          setTimeout(()=>{
              setAlertText(null);
